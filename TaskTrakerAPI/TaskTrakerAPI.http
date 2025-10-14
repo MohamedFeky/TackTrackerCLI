@@ -1,0 +1,6 @@
+@TaskTrakerAPI_HostAddress = http://localhost:5081
+
+GET {{TaskTrakerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
