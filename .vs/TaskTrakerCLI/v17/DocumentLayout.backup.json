@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\CsharpProjects\\TaskTrakerCLI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98C00DDC-E1F6-4E2C-8158-44245B9174F4}|TaskTrakerAPI\\TaskTrakerAPI.csproj|d:\\csharpprojects\\tasktrakercli\\tasktrakerapi\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C00DDC-E1F6-4E2C-8158-44245B9174F4}|TaskTrakerAPI\\TaskTrakerAPI.csproj|solutionrelative:tasktrakerapi\\dtos\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C00DDC-E1F6-4E2C-8158-44245B9174F4}|TaskTrakerAPI\\TaskTrakerAPI.csproj|d:\\csharpprojects\\tasktrakercli\\tasktrakerapi\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C00DDC-E1F6-4E2C-8158-44245B9174F4}|TaskTrakerAPI\\TaskTrakerAPI.csproj|solutionrelative:tasktrakerapi\\repositories\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C00DDC-E1F6-4E2C-8158-44245B9174F4}|TaskTrakerAPI\\TaskTrakerAPI.csproj|d:\\csharpprojects\\tasktrakercli\\tasktrakerapi\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C00DDC-E1F6-4E2C-8158-44245B9174F4}|TaskTrakerAPI\\TaskTrakerAPI.csproj|solutionrelative:tasktrakerapi\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C00DDC-E1F6-4E2C-8158-44245B9174F4}|TaskTrakerAPI\\TaskTrakerAPI.csproj|d:\\csharpprojects\\tasktrakercli\\tasktrakerapi\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C00DDC-E1F6-4E2C-8158-44245B9174F4}|TaskTrakerAPI\\TaskTrakerAPI.csproj|solutionrelative:tasktrakerapi\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98C00DDC-E1F6-4E2C-8158-44245B9174F4}|TaskTrakerAPI\\TaskTrakerAPI.csproj|d:\\csharpprojects\\tasktrakercli\\tasktrakerapi\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98C00DDC-E1F6-4E2C-8158-44245B9174F4}|TaskTrakerAPI\\TaskTrakerAPI.csproj|solutionrelative:tasktrakerapi\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateTaskDto.cs",
+              "DocumentMoniker": "D:\\CsharpProjects\\TaskTrakerCLI\\TaskTrakerAPI\\DTOs\\CreateTaskDto.cs",
+              "RelativeDocumentMoniker": "TaskTrakerAPI\\DTOs\\CreateTaskDto.cs",
+              "ToolTip": "D:\\CsharpProjects\\TaskTrakerCLI\\TaskTrakerAPI\\DTOs\\CreateTaskDto.cs",
+              "RelativeToolTip": "TaskTrakerAPI\\DTOs\\CreateTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T16:59:35.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "D:\\CsharpProjects\\TaskTrakerCLI\\TaskTrakerAPI\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "TaskTrakerAPI\\Services\\TaskService.cs",
+              "ToolTip": "D:\\CsharpProjects\\TaskTrakerCLI\\TaskTrakerAPI\\Services\\TaskService.cs",
+              "RelativeToolTip": "TaskTrakerAPI\\Services\\TaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T16:55:02.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "D:\\CsharpProjects\\TaskTrakerCLI\\TaskTrakerAPI\\Services\\ITaskService.cs",
+              "RelativeDocumentMoniker": "TaskTrakerAPI\\Services\\ITaskService.cs",
+              "ToolTip": "D:\\CsharpProjects\\TaskTrakerCLI\\TaskTrakerAPI\\Services\\ITaskService.cs",
+              "RelativeToolTip": "TaskTrakerAPI\\Services\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T16:44:42.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "D:\\CsharpProjects\\TaskTrakerCLI\\TaskTrakerAPI\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "TaskTrakerAPI\\Repositories\\TaskRepository.cs",
+              "ToolTip": "D:\\CsharpProjects\\TaskTrakerCLI\\TaskTrakerAPI\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "TaskTrakerAPI\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T16:38:52.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "D:\\CsharpProjects\\TaskTrakerCLI\\TaskTrakerAPI\\Repositories\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "TaskTrakerAPI\\Repositories\\ITaskRepository.cs",
+              "ToolTip": "D:\\CsharpProjects\\TaskTrakerCLI\\TaskTrakerAPI\\Repositories\\ITaskRepository.cs",
+              "RelativeToolTip": "TaskTrakerAPI\\Repositories\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T16:35:03.414Z",
+              "EditorCaption": ""
             }
           ]
         }

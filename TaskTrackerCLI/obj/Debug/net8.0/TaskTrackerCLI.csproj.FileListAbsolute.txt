@@ -1,0 +1,15 @@
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\bin\Debug\net8.0\TaskTrackerCLI.exe
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\bin\Debug\net8.0\TaskTrackerCLI.deps.json
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\bin\Debug\net8.0\TaskTrackerCLI.runtimeconfig.json
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\bin\Debug\net8.0\TaskTrackerCLI.dll
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\bin\Debug\net8.0\TaskTrackerCLI.pdb
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\obj\Debug\net8.0\TaskTrackerCLI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\obj\Debug\net8.0\TaskTrackerCLI.AssemblyInfoInputs.cache
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\obj\Debug\net8.0\TaskTrackerCLI.AssemblyInfo.cs
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\obj\Debug\net8.0\TaskTrackerCLI.csproj.CoreCompileInputs.cache
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\obj\Debug\net8.0\TaskTrackerCLI.sourcelink.json
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\obj\Debug\net8.0\TaskTrackerCLI.dll
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\obj\Debug\net8.0\refint\TaskTrackerCLI.dll
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\obj\Debug\net8.0\TaskTrackerCLI.pdb
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\obj\Debug\net8.0\TaskTrackerCLI.genruntimeconfig.cache
+D:\CsharpProjects\TaskTrakerCLI\TaskTrackerCLI\obj\Debug\net8.0\ref\TaskTrackerCLI.dll
