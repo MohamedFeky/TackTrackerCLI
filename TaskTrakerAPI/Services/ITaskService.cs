@@ -1,5 +1,5 @@
 ﻿using TaskTrakerAPI.Models;
-using TaskTrakerAPI.Models;
+
 using TaskTrakerAPI.Repositories;
 
 namespace TaskTrakerAPI.Services

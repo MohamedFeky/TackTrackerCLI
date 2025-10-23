@@ -7,6 +7,6 @@
         public string Description { get; set; } = string.Empty;
         public TaskStatus Status { get; set; }
         public DateTime CreatedAt { get; set; }
-        public DateTime UpdateedAt { get; set; }
+        
     }
 }

@@ -1,4 +1,4 @@
-﻿using TaskTrakerAPI.Models;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
 using TaskTrakerAPI.Models;
 using TaskTrakerAPI.Repositories;
 
@@ -12,7 +12,7 @@ namespace TaskTrakerAPI.Services
             _repo = repo;
         }
 
-        public async Task<int> CreateTaskAsync(CreateTaskDto createTaskDtoFromRequest)
+        public async Task CreateTaskAsync(CreateTaskDto createTaskDtoFromRequest)
         {
             var newTask = new TaskD
             {
@@ -21,7 +21,7 @@ namespace TaskTrakerAPI.Services
                 Status = (Models.TaskStatus)createTaskDtoFromRequest.Status
             };
             await _repo.CreateAsync(newTask);
-            return newTask.Id;
+            await _repo.SaveAsync();
         }
 
         public async Task DeleteTaskAsync(int id)
@@ -30,22 +30,24 @@ namespace TaskTrakerAPI.Services
             if (task != null)
             {
                 await _repo.DeleteAsync(id);
+                await _repo.SaveAsync();
             }
         }
 
-        public Task<IEnumerable<GetAllTasksDto>> GetAllTasksAsync()
+        public async Task<IEnumerable<GetAllTasksDto>> GetAllTasksAsync()
         {
-            var tasks = _repo.GetAllAsync();
-            var tasksDto = tasks.Result.Select(t => new GetAllTasksDto
+            var tasks = await _repo.GetAllAsync();
+
+            return tasks.Select(t => new GetAllTasksDto
             {
                 Id = t.Id,
                 Name = t.Name,
                 Description = t.Description,
-                Status = (Models.TaskStatus)t.Status,
-                CreatedAt = t.CreatedAt,
+                Status = t.Status,
+                CreatedAt = t.CreatedAt
             });
-            return tasksDto;
         }
+
 
         public async Task<GetTaskByIdDto> GetTaskByIdAsync(int id)
         {
@@ -57,7 +59,7 @@ namespace TaskTrakerAPI.Services
                 Id = task.Id,
                 Name = task.Name,
                 Description = task.Description,
-                Status = (Models.TaskStatus)task.Status,
+                Status = task.Status,
                 CreatedAt = task.CreatedAt,
             };
         }
@@ -76,6 +78,7 @@ namespace TaskTrakerAPI.Services
             if (updateTaskDto.Status != null)
                 task.Status = updateTaskDto.Status.Value;
             await _repo.UpdateAsync(task);
+            await _repo.SaveAsync();
         }
     }
 }
