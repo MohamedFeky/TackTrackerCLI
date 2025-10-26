@@ -7,7 +7,7 @@ namespace TaskTrakerAPI.Services
     public interface ITaskService
     {
 
-        public Task CreateTaskAsync(CreateTaskDto createTaskDto);
+        public Task<GetTaskByIdDto> CreateTaskAsync(CreateTaskDto createTaskDto);
 
         public Task UpdateTaskAsync(int id,UpdateTaskDto updateTaskDto);
 

@@ -12,16 +12,27 @@ namespace TaskTrakerAPI.Services
             _repo = repo;
         }
 
-        public async Task CreateTaskAsync(CreateTaskDto createTaskDtoFromRequest)
+        public async Task<GetTaskByIdDto> CreateTaskAsync(CreateTaskDto createTaskDtoFromRequest)
         {
             var newTask = new TaskD
             {
                 Name = createTaskDtoFromRequest.Name,
                 Description = createTaskDtoFromRequest.Description,
-                Status = (Models.TaskStatus)createTaskDtoFromRequest.Status
+                Status = createTaskDtoFromRequest.Status
             };
             await _repo.CreateAsync(newTask);
             await _repo.SaveAsync();
+            var result = new GetTaskByIdDto
+            {
+                Id = newTask.Id,
+                Name = newTask.Name,
+                Description = newTask.Description,
+                Status = newTask.Status,
+                CreatedAt = newTask.CreatedAt
+            };
+
+            return result;
+
         }
 
         public async Task DeleteTaskAsync(int id)
